@@ -4,15 +4,9 @@
 
     <mj-all font-family="Open Sans,Arial" />
     <mj-class name="bodyPadding" padding="10px" />
-    <mj-style>
 
-      @media only screen and (max-width:480px) { .mobile_fix { font-size: 10px !important; text-align: left !important; } .mobile_fix_reward{ width: 80px !important; } } @media only screen and (min-width:480px) { .desktop_social{ display:block !important; }
-      .mobile_social{display:none !important;} } @media only screen and (max-width:481px) { .desktop_social{ display:none !important; } .mobile_social{display:block !important;} }
-
-    </mj-style>
     <mj-style inline="inline">
       .bodyPadding{ padding:10px; } .anchor_color{ color:#008542; } .hero_image{ margin-top:20px; }
-      
     </mj-style>
   </mj-head>
 
@@ -36,14 +30,14 @@
         <mj-column vertical-align="middle">
 
 
-          <mj-image padding-left="0" padding-right="0" 	width="120" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB_REWARDS_RGB_MASTER.png" />
+          <mj-image padding-left="0" width="120" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB_REWARDS_RGB_MASTER.png" />
 
         </mj-column>
         <mj-column vertical-align="middle">
-          <mj-text padding-right="5" padding-left="0" css-class="title_link" font-family="Open Sans,Arial" vertical-align="middle" align="right" color="#008542" font-family="open sans,Arial" text-decoration="none" font-size="14px" line-height="20px" height="20px" text-decoration="none">
-            <a class="anchor_color mobile_fix" href="https://www.tab.com.au/" style="text-decoration:none;">Login</a> |
-            <a class="anchor_color mobile_fix" href="https://www.tabrewards.com.au/security/signin/local" style="text-decoration:none;">Rewards</a> |
-            <a href="" class="anchor_color mobile_fix" style="text-decoration:none;">Benefits</a>
+          <mj-text padding-right="5" css-class="title_link" font-family="Open Sans,Arial" vertical-align="middle" align="right" color="#008542" font-family="open sans,Arial" text-decoration="none" font-size="14px" line-height="20px" height="20px" text-decoration="none">
+            <a class="anchor_color" href="https://www.tab.com.au/" style="text-decoration:none;">Login</a> |
+            <a class="anchor_color" href="https://www.tabrewards.com.au/security/signin/local" style="text-decoration:none;">Rewards</a> |
+            <a href="" class="anchor_color" style="text-decoration:none;">Benefits</a>
           </mj-text>
         </mj-column>
       </mj-group>
@@ -84,8 +78,26 @@
           <br>
           <b>Welcome to TAB Rewards. </b>
 
+        </mj-text>
+        <mj-table font-family="Open Sans,Arial">
+          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:12px;line-height:13px;height:45px">
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Reward</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Quantity</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Total Point Cost</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Points Redeemed</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Paid($)</th>
 
+          </tr>
+          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:12px;line-height:13px;height:45px">
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Reward</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Quantity</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Total-Point-Cost</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Points-Redeemed</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Paid</th>
+          </tr>
 
+        </mj-table>
+        <mj-text font-family="Open Sans,Arial" font-size="16px" font-style="normal" color="#6F6F6E" align="left" line-height="24px">
           <br> Your current Rewards Tier is: Silver
           <br> You will now earn TAB Rewards points for every bet you place.
           <br> You'll also receive 30,000 Bonus Points to help you hit the ground running.
@@ -138,7 +150,7 @@
       </mj-group>
     </mj-section>
 
-    <mj-section css-class="Social desktop_social" background-color="#e5e5e5">
+    <mj-section css-class="Social" background-color="#e5e5e5">
       <mj-group>
         <mj-column width="40%" vertical-align="middle">
 
@@ -147,14 +159,14 @@
         </mj-column>
 
         <mj-column width="30%" vertical-align="middle">
-          <mj-image width="80" align="right" href="https://www.tab.com.au/info/android-ap" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+android.jpg" />
+          <mj-image width="80" align="right" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+android.jpg" />
 
 
 
         </mj-column>
 
         <mj-column width="30%" vertical-align="middle">
-          <mj-image width="80" align="left" href="https://itunes.apple.com/au/app/tab-for-iphone/id364500613?mt=8&ign-mpt=uo%3D4" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+apple.png" />
+          <mj-image width="80" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+apple.png" />
 
 
 
@@ -164,7 +176,6 @@
       </mj-group>
     </mj-section>
 
-   
     <mj-section css-class="footer_section" background-color="#008542">
       <mj-column>
         <mj-text font-family="Open Sans,Arial" padding="0" align="left" color="white" font-size="14px" font-style="normal" line-height="20px" font-weight="400">
@@ -210,6 +221,16 @@
 
       </mj-column>
     </mj-section>
+
+
+
+
+
+
+
+
+
+
 
 
 
