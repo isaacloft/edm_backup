@@ -6,8 +6,7 @@
     <mj-class name="bodyPadding" padding="10px" />
     <mj-style>
 
-      @media only screen and (max-width:480px) { .mobile_fix { font-size: 10px !important; text-align: left !important; } .mobile_fix_reward{ width: 80px !important; } } @media only screen and (min-width:480px) { .desktop_social{ display:block !important; }
-      .mobile_social{display:none !important;} } @media only screen and (max-width:481px) { .desktop_social{ display:none !important; } .mobile_social{display:block !important;} }
+      @media only screen and (max-width:480px) { .mobile_fix { font-size: 10px !important; text-align: left !important; } .mobile_fix_reward{ width: 80px !important; } }
 
     </mj-style>
     <mj-style inline="inline">
@@ -35,7 +34,7 @@
         <mj-column vertical-align="middle">
 
 
-          <mj-image padding-left="0" padding-right="0" 	width="120" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB_REWARDS_RGB_MASTER.png" />
+          <mj-image padding-left="0" padding-right="0"  width="120" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB_REWARDS_RGB_MASTER.png" />
 
         </mj-column>
         <mj-column vertical-align="middle">
@@ -156,7 +155,7 @@
       </mj-group>
     </mj-section>
 
-    <mj-section css-class="Social desktop_social" background-color="#e5e5e5">
+    <mj-section css-class="Social" background-color="#e5e5e5">
       <mj-group>
         <mj-column width="40%" vertical-align="middle">
 
