@@ -1,0 +1,38 @@
+<mjml>
+  <mj-body>
+
+    <mj-column background-color="#008542">
+
+      <mj-text align="center" color="white" font-family="open sans" text-decoration="none" font-size="10px" padding-top="0px">
+        Having trouble viewing this email? <a href="www.google.com">View it in your browser</a>
+      </mj-text>
+      < mj-container>
+        <mj-section background-color="white">
+          <mj-section background-color="white" padding="5px;">
+            <mj-image width="100" align="left" src="http://www.online-image-editor.com//styles/2014/images/example_image.png" />
+            <mj-text align="right" text-align="top" color="blue" font-family="open sans" text-decoration="none" font-size="18px">
+              Login | Rewards | Benefits
+            </mj-text>
+          </mj-section>
+          <mj-section background-color="white">
+            <mj-table background-color="green">
+              <tr style="border:1px solid black;text-align:center; background-color:#AECB45;">
+                <th style="padding:5px;border:1px solid #008542;">Account: @AccountNumber</th>
+                <th style="padding:5px;border:1px solid #008542;"> Loyalty tier: @LoyaltyTier</th>
+                <th style="padding:5px;border:1px solid #008542;"> Points: @PtsBalance</th>
+              </tr>
+              <tr style="border:1px solid black;text-align:center; background-color:#AECB45;">
+                <th style="padding:5px;border:1px solid #008542;">Account: @AccountNumber</th>
+                <th style="padding:5px;border:1px solid #008542;"> Loyalty tier: @LoyaltyTier</th>
+                <th style="padding:5px;border:1px solid #008542;"> Points: @PtsBalance</th>
+              </tr>
+
+            </mj-table>
+          </mj-section>
+        </mj-section>
+        </mj-container>
+
+    </mj-column>
+
+  </mj-body>
+</mjml>
