@@ -139,20 +139,30 @@
       <mj-group>
         <mj-column width="40%" vertical-align="middle">
 
-          <mj-image width="250" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Download+the+App.jpg" />
+          <mj-image align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Download+the+App.jpg" />
 
         </mj-column>
 
         <mj-column width="30%" vertical-align="middle">
-          <mj-image width="80" align="right" href="https://www.tab.com.au/info/android-ap" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+android.jpg" />
+          <mj-raw>
+            <a href="https://www.tab.com.au/info/android-app" class="HeaderLinkText">
+                              <img src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+android.jpg"  alt="alt_text" border="0"
+                             class="g-img" style="max-width: 70px;width: auto;height: auto; display:inline-block;" align="right">
+                          </a>
 
+          </mj-raw>
 
 
         </mj-column>
 
         <mj-column width="30%" vertical-align="middle">
-          <mj-image width="80" align="left" href="https://itunes.apple.com/au/app/tab-for-iphone/id364500613?mt=8&ign-mpt=uo%3D4" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+apple.png" />
+          <mj-raw>
 
+            <a href="https://itunes.apple.com/au/app/tab-for-iphone/id364500613?mt=8&ign-mpt=uo%3D4" class="HeaderLinkText">
+                          <img src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+apple.png"  alt="alt_text" border="0"
+                          class="g-img" style="max-width: 70px;width: auto;height: auto;display:inline-block; padding-left:10px" align="middle">
+                      </a>
+          </mj-raw>
 
 
         </mj-column>
