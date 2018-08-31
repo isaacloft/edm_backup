@@ -58,11 +58,7 @@
             <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;"> Loyalty tier: @LoyaltyTier</th>
             <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;"> Points: @PtsBalance</th>
           </tr>
-          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:12px;line-height:13px;height:45px">
-            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Points earned: %%= v(@PtsEarned) =%%</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Points redeemed: %%= v(@PtsRedeemed) =%%</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Points expiring: %%= v(@PtsExpiry) =%%</th>
-          </tr>
+         
 
         </mj-table>
       </mj-column>
@@ -118,7 +114,7 @@
         <mj-column vertical-align="middle">
 
 
-          <mj-image padding="0" width="150" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB_WLAB_GreenBG_Logo_RGB.jpg" />
+          <mj-image padding="0" width="60" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB+footer+image.png" />
 
         </mj-column>
         <mj-column vertical-align="middle">
