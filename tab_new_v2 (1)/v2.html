@@ -110,7 +110,17 @@
 
     <style type="text/css">
     </style>
-    <style type="text/css"></style>
+    <style type="text/css">
+        @media only screen and (max-width:480px) {
+            .mobile_fix {
+                font-size: 10px !important;
+                text-align: left !important;
+            }
+            .mobile_fix_reward {
+                width: 80px !important;
+            }
+        }
+    </style>
 </head>
 
 <body style="background-color:#008542;">
@@ -151,8 +161,8 @@
                                     <tr>
                                         <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 
-                                            <div style="font-family:Open Sans,Arial;font-size:14px;line-height:17px;text-align:center;color:white;">
-                                                Having trouble viewing this email? <a href="%%view_email_url%%" style="color:white;font-size='14px'">View it in your browser</a>
+                                            <div style="font-family:Open Sans,Arial;font-size:12px;line-height:13px;text-align:center;color:white;">
+                                                Having trouble viewing this email? <a href="%%view_email_url%%" style="color:white">View it in your browser</a>
                                             </div>
 
                                         </td>
@@ -221,14 +231,14 @@
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
 
                                         <tr>
-                                            <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;">
+                                            <td align="left" style="font-size:0px;padding:10px 25px;padding-right:0;padding-left:0;word-break:break-word;">
 
                                                 <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                                     <tbody>
                                                         <tr>
                                                             <td style="width:120px;">
 
-                                                                <img alt="Tab Rewards Logo" height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB_REWARDS_RGB_MASTER.png" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="120">
+                                                                <img height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB_REWARDS_RGB_MASTER.png" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="120">
 
                                                             </td>
                                                         </tr>
@@ -255,13 +265,29 @@
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
 
                                         <tr>
-                                            <td align="right" vertical-align="middle" class="title_link" style="font-size:0px;padding:10px 25px;padding-right:10;padding-bottom:0;padding-left:0;word-break:break-word;">
+                                            <td align="right" vertical-align="middle" class="title_link" style="font-size:0px;padding:10px 25px;padding-right:5;padding-left:0;word-break:break-word;">
 
-                                                <div style="font-family:Open Sans,Arial;font-size:14px;line-height:17px;text-align:right;text-decoration:none;color:#6F6F6E;">
+
+                                                <!--[if mso | IE]>
+    
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="20px" style="vertical-align:top;height:20px;">
+        
+    <![endif]-->
+
+
+                                                <div style="font-family:Open Sans,Arial;font-size:14px;line-height:20px;text-align:right;text-decoration:none;color:#008542;height:20px;">
                                                     <a class="anchor_color mobile_fix" href="https://www.tab.com.au/" style="color: #008542; text-decoration: none;">Login</a> |
                                                     <a class="anchor_color mobile_fix" href="https://www.tabrewards.com.au/security/signin/local" style="color: #008542; text-decoration: none;">Rewards</a> |
                                                     <a href="" class="anchor_color mobile_fix" style="color: #008542; text-decoration: none;">Benefits</a>
                                                 </div>
+
+
+                                                <!--[if mso | IE]>
+    
+          </td></tr></table>
+        
+    <![endif]-->
+
 
                                             </td>
                                         </tr>
@@ -311,7 +337,7 @@
             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
                 <tbody>
                     <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
                             <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -330,10 +356,10 @@
                                         <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
 
                                             <table 0="[object Object]" 1="[object Object]" 2="[object Object]" border="0" style="cellspacing:0;color:#000;font-family:Open Sans,Arial;font-size:13px;line-height:22px;table-layout:auto;width:100%;">
-                                                <tr style="border:none;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
-                                                    <th class="mobile-table" style="padding:5px;border:1px solid #008542;border-left:1px solid #AECB45;border-bottom:1px solid #008542;font-size:14px;line-height:17px;">Account: @AccountNumber</th>
-                                                    <th class="mobile-table" style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;border-bottom:1px solid #008542;">Loyalty tier: @LoyaltyTier</th>
-                                                    <th class="mobile-table" style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;border-bottom:1px solid #008542;border-right:1px solid #AECB45;">Points: @PtsBalance</th>
+                                                <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:12px;line-height:13px;height:45px">
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Account: @AccountNumber</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;"> Loyalty tier: @LoyaltyTier</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;"> Points: @PtsBalance</th>
                                                 </tr>
                                             </table>
 
@@ -365,6 +391,42 @@
       </table>
       
       <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="spacing-outlook" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+
+
+        <div class="spacing" style="background:#008542;background-color:#008542;Margin:0px auto;max-width:600px;">
+
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#008542;background-color:#008542;width:100%;">
+                <tbody>
+                    <tr>
+                        <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;">
+                            <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+        <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
          align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"
       >
         <tr>
@@ -377,7 +439,43 @@
             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
                 <tbody>
                     <tr>
-                        <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;">
+                            <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+        <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+
+
+        <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+                <tbody>
+                    <tr>
+                        <td style="direction:ltr;font-size:0px;padding:10;text-align:center;vertical-align:top;">
                             <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -393,14 +491,14 @@
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
 
                                     <tr>
-                                        <td align="center" class="hero_image" style="margin-top: 20px; font-size: 0px; padding: 10px 25px; padding-top: 30; word-break: break-word;">
+                                        <td align="center" class="hero_image" style="margin-top: 20px; font-size: 0px; padding: 10; padding-top: 20; word-break: break-word;">
 
                                             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                                 <tbody>
                                                     <tr>
-                                                        <td style="width:530px;">
+                                                        <td style="width:560px;">
 
-                                                            <img alt="Welcome to Tab Rewards" height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/64377_TR_Welcome_TR_1360x600+V1.jpg" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="530">
+                                                            <img height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/64377_TR_Welcome_TR_1360x600+V1.jpg" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="560">
 
                                                         </td>
                                                     </tr>
@@ -411,14 +509,13 @@
                                     </tr>
 
                                     <tr>
-                                        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:20px;word-break:break-word;">
+                                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 
-                                            <div style="font-family:Open Sans,Arial;font-size:14px;font-style:normal;line-height:17px;text-align:left;color:#6F6F6E;">
+                                            <div style="font-family:Open Sans,Arial;font-size:16px;font-style:normal;line-height:24px;text-align:left;color:#6F6F6E;">
                                                 Hi %%= v(@firstName) =%%
                                                 <br>
                                                 <br>
                                                 <b>Welcome to TAB Rewards. </b>
-                                                <br>
                                             </div>
 
                                         </td>
@@ -428,18 +525,18 @@
                                         <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 
                                             <table 0="[object Object]" 1="[object Object]" 2="[object Object]" border="0" style="cellspacing:0;color:#000;font-family:Open Sans,Arial;font-size:13px;line-height:22px;table-layout:auto;width:100%;">
-                                                <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Reward</th>
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Quantity</th>
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Points Redeemed</th>
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Paid($)</th>
+                                                <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:12px;line-height:13px;height:45px">
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Reward</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Quantity</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Points Redeemed</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Paid($)</th>
 
                                                 </tr>
-                                                <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Reward</th>
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Quantity</th>
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Points-Redeemed</th>
-                                                    <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Paid</th>
+                                                <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:12px;line-height:13px;height:45px">
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Reward</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Quantity</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Points-Redeemed</th>
+                                                    <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">@Paid</th>
                                                 </tr>
                                             </table>
 
@@ -449,7 +546,7 @@
                                     <tr>
                                         <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 
-                                            <div style="font-family:Open Sans,Arial;font-size:14px;font-style:normal;line-height:17px;text-align:left;color:#6F6F6E;">
+                                            <div style="font-family:Open Sans,Arial;font-size:16px;font-style:normal;line-height:24px;text-align:left;color:#6F6F6E;">
                                                 <br> Your current Rewards Tier is: Silver
                                                 <br> You will now earn TAB Rewards points for every bet you place.
                                                 <br> You'll also receive 30,000 Bonus Points to help you hit the ground running.
@@ -458,28 +555,27 @@
 
                                                 <b>As a TAB Rewards member, you can enjoy access to: </b>
                                                 <br>
-                                                <ul>
-                                                    <li>VIP money can't buy experiences</li>
-                                                    <li>Regular bonus points promotions</li>
-                                                    <li>Free entry to TAB Rewards racedays</li>
-                                                    <li>The chance to own a share in a racehorse for a day</li>
-                                                    <li>Access to exclusive rewards in our TAB Rewards Store</li>
-                                                    <li>And so much more....</li>
 
-                                                </ul>
-                                                So what are you waiting for?
+                                                <br> • VIP money can't buy experiences
+                                                <br> • Regular bonus points promotions
+                                                <br> • Free entry to TAB Rewards racedays
+                                                <br> • The chance to own a share in a racehorse for a day
+                                                <br> • Access to exclusive rewards in our TAB Rewards Store
+                                                <br> • And so much more....
+                                                <br> So what are you waiting for?
+                                                <br>
                                             </div>
 
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td align="left" vertical-align="middle" class="mobile_btn" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                        <td align="left" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                                 <tr>
                                                     <td align="center" bgcolor="#D83F0D" role="presentation" style="border:1px solid #D83F0D;border-radius:3px;color:white;cursor:auto;padding:10px 25px;" valign="middle">
-                                                        <a href="https://www.tab.com.au/" style="background:#D83F0D;color:white;font-family:sans-serif;font-size:14px;font-weight:normal;line-height:22px;Margin:0;text-decoration:none;text-transform:none;" target="_blank">
+                                                        <a href="https://www.tab.com.au/" style="background:#D83F0D;color:white;font-family:sans-serif;font-size:16px;font-weight:normal;line-height:44px;Margin:0;text-decoration:none;text-transform:none;" target="_blank">
               Login Now
             </a>
                                                     </td>
@@ -490,14 +586,14 @@
                                     </tr>
 
                                     <tr>
-                                        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:15px;padding-bottom:20px;word-break:break-word;">
+                                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                                 <tbody>
                                                     <tr>
                                                         <td style="width:150px;">
 
-                                                            <img alt="Your mates at TAB" height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Your+Mates+at+TAB.jpg" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="150">
+                                                            <img height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Your+Mates+at+TAB.jpg" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="150">
 
                                                         </td>
                                                     </tr>
@@ -577,7 +673,7 @@
                                                         <tr>
                                                             <td style="width:60px;">
 
-                                                                <img alt="Tab Logo" height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB+footer+image.png" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="60">
+                                                                <img height="auto" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/TAB+footer+image.png" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="60">
 
                                                             </td>
                                                         </tr>
@@ -917,7 +1013,7 @@
                                     <tr>
                                         <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
 
-                                            <div style="font-family:Open Sans,Arial;font-size:14px;font-style:normal;font-weight:400;line-height:17px;text-align:left;color:white;">
+                                            <div style="font-family:Open Sans,Arial;font-size:14px;font-style:normal;font-weight:400;line-height:20px;text-align:left;color:white;">
                                                 <a href="https://help.tab.com.au/s/" class="" style="color: #ffffff;">Help Centre</a> |
                                                 <a href="https://www.tab.com.au/forgot-password" class="" style="color: #ffffff;">Forgot Password?</a> |
                                                 <a href="http://pages.s7.exacttarget.com/page.aspx?qs=1550dccf35ce5f746e326a00a6b2fcbcb96e60df7034d122dbdb29c5ebdcaf6d9fa2178483be2860a007ae1af1723fa16352ea1f3136f65a579cef6db596e87e44aea120339b9f513210ed0b4cce6883d4f0a23543ed9113a1fd56d6e02f63a73e5d4d04b8713374"
@@ -941,7 +1037,7 @@
                                     <tr>
                                         <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
 
-                                            <div style="font-family:Open Sans,Arial;font-size:10px;font-style:normal;line-height:13px;text-align:left;color:white;">
+                                            <div style="font-family:Open Sans,Arial;font-size:12px;font-style:normal;line-height:20px;text-align:left;color:white;">
                                                 <b>Important Information
                     </b>
                                                 <p>
@@ -971,7 +1067,7 @@
                                     <tr>
                                         <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
 
-                                            <div style="font-family:Open Sans,Arial;font-size:10px;font-style:normal;font-weight:400;line-height:13px;text-align:left;color:white;">
+                                            <div style="font-family:Open Sans,Arial;font-size:12px;font-style:normal;font-weight:400;line-height:20px;text-align:left;color:white;">
                                                 <br>This email was sent by:<br>
                                                 <b>%%Member_Busname%%</b>, %%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%
                                             </div>

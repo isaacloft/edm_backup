@@ -8,6 +8,7 @@
 
 
 
+
     </mj-style>
     <mj-style inline="inline">
       .bodyPadding{ padding:10px; } .anchor_color{ color:#008542; } .hero_image{ margin-top:20px; }
@@ -30,7 +31,7 @@
 
     </mj-section>
 
-    <mj-section css-class="logo" background-color="white" padding="0" >
+    <mj-section css-class="logo" background-color="white" padding="0">
       <mj-group>
         <mj-column vertical-align="middle">
 
@@ -39,8 +40,7 @@
 
         </mj-column>
         <mj-column vertical-align="middle">
-          <mj-text padding-right="10" padding-bottom="0" padding-left="0" css-class="title_link" font-family="Open Sans,Arial" vertical-align="middle" align="right" color="#6F6F6E" font-family="open sans,Arial" text-decoration="none" font-size="14px" line-height="17px"
-            text-decoration="none">
+          <mj-text padding-right="10" padding-bottom="0" padding-left="0" css-class="title_link" font-family="Open Sans,Arial" vertical-align="middle" align="right" color="#6F6F6E" font-family="open sans,Arial" text-decoration="none" font-size="14px" line-height="17px" text-decoration="none">
             <a class="anchor_color mobile_fix" href="https://www.tab.com.au/" style="text-decoration:none;">Login</a> |
             <a class="anchor_color mobile_fix" href="https://www.tabrewards.com.au/security/signin/local" style="text-decoration:none;">Rewards</a> |
             <a href="" class="anchor_color mobile_fix" style="text-decoration:none;">Benefits</a>
@@ -50,14 +50,13 @@
     </mj-section>
 
 
-
-    <mj-section css-class="account" background-color="white" padding="0" padding-bottom="20px">
+    <mj-section css-class="account" background-color="white" padding="0">
       <mj-column>
         <mj-table padding="0" font-family="Open Sans,Arial">
-          <tr style="border:none;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
-            <th class="mobile-table" style="padding:5px;border:1px solid #008542;border-left:1px solid #AECB45;border-bottom:1px solid #008542;font-size:14px;line-height:17px;">Account: @AccountNumber</th>
-            <th class="mobile-table" style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;border-bottom:1px solid #008542;">Loyalty tier: @LoyaltyTier</th>
-            <th class="mobile-table" style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;border-bottom:1px solid #008542;border-right:1px solid #AECB45;">Points: @PtsBalance</th>
+          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
+            <th style="padding:5px;border:1px solid #008542;border-left:1px solid #AECB45;border-bottom:1px solid #AECB45;font-size:14px;line-height:17px;">Account: @AccountNumber</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;border-bottom:1px solid #AECB45;">Loyalty tier: @LoyaltyTier</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;border-bottom:1px solid #AECB45;border-right:1px solid #AECB45;">Points: @PtsBalance</th>
           </tr>
 
 
@@ -66,19 +65,38 @@
     </mj-section>
 
 
+    <mj-section css-class="spacing"  background-color="#008542">
+
+    </mj-section>
 
 
-    <mj-section background-color="white" padding="10px">
+    <mj-section background-color="white" padding="10">
       <mj-column>
-        <mj-image alt="Welcome to Tab Rewards" css-class="hero_image" padding-top="30" align="center" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/64377_TR_Welcome_TR_1360x600+V1.jpg" />
+        <mj-image alt="Welcome to Tab Rewards" css-class="hero_image" padding="10" align="center" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/64377_TR_Welcome_TR_1360x600+V1.jpg" />
         <mj-text font-family="Open Sans,Arial" font-size="14px" font-style="normal" color="#6F6F6E" align="left" line-height="17px" padding-top="20px">
           Hi %%= v(@firstName) =%%
           <br>
           <br>
           <b>Welcome to TAB Rewards. </b>
-          <br>
 
+</mj-text>
+        <mj-table font-family="Open Sans,Arial">
+          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Reward</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Quantity</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Points Redeemed</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Paid($)</th>
 
+          </tr>
+          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Reward</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Quantity</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Points-Redeemed</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Paid</th>
+          </tr>
+
+        </mj-table>
+        <mj-text font-family="Open Sans,Arial" font-size="14px" font-style="normal" color="#6F6F6E" align="left" line-height="17px">
 
           <br> Your current Rewards Tier is: Silver
           <br> You will now earn TAB Rewards points for every bet you place.
@@ -102,7 +120,7 @@
 
 
         </mj-text>
-        <mj-button css-class="mobile_btn" font-family="sans-serif" background-color="#D83F0D" color="white" href="https://www.tab.com.au/" border="1px solid #D83F0D" font-size="14px" line-height="22px" align="left">
+        <mj-button font-family="sans-serif" background-color="#D83F0D" color="white" href="https://www.tab.com.au/" border="1px solid #D83F0D" font-size="14px" height="48px" align="left">
           Login Now
         </mj-button>
 
@@ -139,24 +157,27 @@
       <mj-group>
         <mj-column width="40%" vertical-align="middle">
 
-          <mj-image width="250" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Download+the+App.jpg" />
+          <mj-image alt="Download the app" width="250" align="left" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Download+the+App.jpg" />
 
         </mj-column>
 
-        <mj-column width="30%" vertical-align="middle">
-          <mj-image width="80" align="right" href="https://www.tab.com.au/info/android-ap" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+android.jpg" />
+        <mj-column width="60%" vertical-align="middle">
+          
+            <mj-social padding="0" align="center" font-size="15px" icon-size="70px" mode="horizontal">
+            <mj-social-element href="https://www.tab.com.au/info/android-ap" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+android.jpg">
 
+            </mj-social-element>
+              <mj-social-element href="https://itunes.apple.com/au/app/tab-for-iphone/id364500613?mt=8&ign-mpt=uo%3D4" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+apple.png">
+
+            </mj-social-element>
+          
+          </mj-social>
+       
 
 
         </mj-column>
 
-        <mj-column width="30%" vertical-align="middle">
-          <mj-image width="80" align="left" href="https://itunes.apple.com/au/app/tab-for-iphone/id364500613?mt=8&ign-mpt=uo%3D4" src="http://image.email.tab.com.au/lib/fe9613727765047a73/m/7/Loyalty+apple.png" />
-
-
-
-        </mj-column>
-
+     
 
       </mj-group>
     </mj-section>
