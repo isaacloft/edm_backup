@@ -78,7 +78,7 @@
         <mj-text font-family="Open Sans,Arial" font-size="16px" font-style="normal" color="#6F6F6E" align="left" line-height="24px">
           Hi %%= v(@firstName) =%%
           <br>
-             </mj-text>
+        </mj-text>
         <mj-table font-family="Open Sans,Arial">
           <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:12px;line-height:13px;height:45px">
             <th style="padding:5px;border:1px solid #008542;font-size:12px;line-height:13px;">Reward</th>
@@ -95,7 +95,7 @@
           </tr>
 
         </mj-table>
-          
+
         <mj-text font-family="Open Sans,Arial" font-size="16px" font-style="normal" color="#6F6F6E" align="left" line-height="24px">
           <b>Welcome to TAB Rewards. </b>
 
@@ -188,6 +188,8 @@
 
       </mj-group>
     </mj-section>
+
+ 
 
 
     <mj-section css-class="footer_section" background-color="#008542">
