@@ -80,18 +80,18 @@
 
 </mj-text>
         <mj-table font-family="Open Sans,Arial">
-          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
-            <th  style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Reward</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Quantity</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Points Redeemed</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">Paid($)</th>
+          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px;">
+            <th  style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal;">Reward</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal">Quantity</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal">Points Redeemed</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal">Paid($)</th>
 
           </tr>
-          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:#AECB45;font-size:14px;line-height:17px;height:45px">
-            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Reward</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Quantity</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Points-Redeemed</th>
-            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;">@Paid</th>
+          <tr style="border:1px solid black;text-align:center;padding:15px 0; background-color:white;font-size:14px;line-height:17px;height:45px">
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal">@Reward</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal">@Quantity</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal">@Points-Redeemed</th>
+            <th style="padding:5px;border:1px solid #008542;font-size:14px;line-height:17px;font-weight:normal">@Paid</th>
           </tr>
 
         </mj-table>
